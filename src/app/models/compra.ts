@@ -1,7 +1,7 @@
-import Proveedor from "./Proveedor";
+import Proveedor from './proveedor';
 
 export default interface Compra {
-  IdCompra: number;
+  CodigoCompra: number;
   NumeroDocumento: number;
   CodigoProveedor: number;
   Fecha: Date;
