@@ -11,11 +11,12 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "isolatedModules": true,
+    "isolatedModules": false,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "jsx": "react",
-    "noEmit": true
+    "noEmit": true,
+    "experimentalDecorators": true
   }
 }
